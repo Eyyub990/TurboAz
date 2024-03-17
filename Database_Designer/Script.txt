@@ -1,0 +1,41 @@
+
+dbo.Models {
+	Id int pk increments
+	Name nvarchar(100)
+	BrandId int *> dbo.Brands.Id
+	CreatedAt datetime
+	LastModifiedBy int
+	LastModifiedAt datetime
+	DeletedBy int
+	DeletedAt datetime
+	CreatedBy int
+}
+
+dbo.Announcemets {
+	Id int pk increments
+	ModelId int *> dbo.Models.Id
+	Category int
+	Gear int
+	FuelType int
+	Transmissions int
+	March decimal(18,1)
+	Price decimal(18,2)
+	Year int
+	CreatedAt datetime
+	LastModifiedBy int
+	LastModifiedAt datetime
+	DeletedBy int
+	DeletedAt datetime
+	CreatedBy int
+}
+
+dbo.Brands {
+	Id int pk increments
+	Name nvarchar(100)
+	CreatedBy int
+	CreatedAt datetime
+	LastModifiedBy int
+	LastModifiedAt datetime
+	DeletedBy int
+	DeletedAt datetime
+}

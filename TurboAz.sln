@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E082F2A9-0B6C-41D4-96AB-B67B2C3599C2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboAzApp", "TurboAzApp\TurboAzApp.csproj", "{C97E22A1-665D-4DA1-A6B9-FB35BE5FCD66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C97E22A1-665D-4DA1-A6B9-FB35BE5FCD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97E22A1-665D-4DA1-A6B9-FB35BE5FCD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97E22A1-665D-4DA1-A6B9-FB35BE5FCD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97E22A1-665D-4DA1-A6B9-FB35BE5FCD66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF59853B-937F-4909-BA94-86B3D8A3D8B1}
+	EndGlobalSection
+EndGlobal
